@@ -1,0 +1,21 @@
+﻿  main.cpp
+c:\users\mdevo\source\repos\cpts_122_lab13\cpts_122_lab13\mammal.h(4): error C2011: 'Mammal': 'class' type redefinition
+  c:\users\mdevo\source\repos\cpts_122_lab13\cpts_122_lab13\mammal.h(3): note: see declaration of 'Mammal'
+c:\users\mdevo\source\repos\cpts_122_lab13\cpts_122_lab13\dog.h(3): error C2504: 'Mammal': base class undefined
+c:\users\mdevo\source\repos\cpts_122_lab13\cpts_122_lab13\cat.h(4): error C2504: 'Mammal': base class undefined
+c:\users\mdevo\source\repos\cpts_122_lab13\cpts_122_lab13\horse.h(4): error C2504: 'Mammal': base class undefined
+c:\users\mdevo\source\repos\cpts_122_lab13\cpts_122_lab13\guineapig.h(4): error C2504: 'Mammal': base class undefined
+c:\users\mdevo\source\repos\cpts_122_lab13\cpts_122_lab13\main.cpp(23): error C2440: '=': cannot convert from 'Dog *' to 'Mammal *'
+  c:\users\mdevo\source\repos\cpts_122_lab13\cpts_122_lab13\main.cpp(23): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\mdevo\source\repos\cpts_122_lab13\cpts_122_lab13\main.cpp(25): error C2440: '=': cannot convert from 'Cat *' to 'Mammal *'
+  c:\users\mdevo\source\repos\cpts_122_lab13\cpts_122_lab13\main.cpp(25): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\mdevo\source\repos\cpts_122_lab13\cpts_122_lab13\main.cpp(27): error C2440: '=': cannot convert from 'Horse *' to 'Mammal *'
+  c:\users\mdevo\source\repos\cpts_122_lab13\cpts_122_lab13\main.cpp(27): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\mdevo\source\repos\cpts_122_lab13\cpts_122_lab13\main.cpp(29): error C2440: '=': cannot convert from 'GuineaPig *' to 'Mammal *'
+  c:\users\mdevo\source\repos\cpts_122_lab13\cpts_122_lab13\main.cpp(29): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\mdevo\source\repos\cpts_122_lab13\cpts_122_lab13\main.cpp(31): error C2027: use of undefined type 'Mammal'
+  c:\users\mdevo\source\repos\cpts_122_lab13\cpts_122_lab13\mammal.h(3): note: see declaration of 'Mammal'
+c:\users\mdevo\source\repos\cpts_122_lab13\cpts_122_lab13\main.cpp(38): error C2027: use of undefined type 'Mammal'
+  c:\users\mdevo\source\repos\cpts_122_lab13\cpts_122_lab13\mammal.h(3): note: see declaration of 'Mammal'
+  Mammal.cpp
+  Generating Code...
